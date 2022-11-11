@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 03_Texture_Lerp
-  m_Shader: {fileID: 4800000, guid: 7b63c15e564684e4badbdd57cd4e5304, type: 3}
+  m_Name: 04_UV
+  m_Shader: {fileID: 4800000, guid: 2fcdaecf31915ed42802d33d46b33856, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -41,7 +41,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 0a45a4f7720f04136af08c0bcafb4a9b, type: 3}
+        m_Texture: {fileID: 2800000, guid: 103f60544eae8c6488fffcd748bfc7d4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -56,10 +56,6 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _SubTex:
-        m_Texture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
     - _BumpScale: 1
@@ -70,7 +66,6 @@ Material:
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _Metallic: 0
-    - _MixAmount: 1
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
