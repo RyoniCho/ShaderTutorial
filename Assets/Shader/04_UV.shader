@@ -36,7 +36,7 @@ Shader "Custom/04_UV"
         void surf (Input IN, inout SurfaceOutputStandard o)
         {
       
-            fixed4 c = tex2D(_MainTex, IN.uv_MainTex+0.5);
+            fixed4 c = tex2D(_MainTex, float2(IN.uv_MainTex.x,IN.uv_MainTex.y+_Time.y));
             //o.Albedo = float3(IN.uv_MainTex.x,IN.uv_MainTex.y,0);//c.rgb;
             o.Albedo = c.rgb;
             o.Alpha = c.a;
