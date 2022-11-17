@@ -45,6 +45,7 @@ Shader "Custom/01_BasicShader"
 
 
         //Basic struct SurfaceOutputStandard
+        //lighting.cginc
         struct SurfaceOutputStandard
         {
             fixed3 Albedo;
